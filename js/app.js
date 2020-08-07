@@ -1,1 +1,10 @@
-window.addEventListener('load')
+window.addEventListener('load', ()=>{
+    let long
+    let long
+
+    if (navigator.geolocation){
+        
+    } {
+        
+    }
+});
