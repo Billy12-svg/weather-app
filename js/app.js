@@ -3,8 +3,6 @@ window.addEventListener('load', ()=>{
     let long
 
     if (navigator.geolocation){
-        
-    } {
-        
+         navigator.geolocation.getCurrentPosition()
     }
 });
