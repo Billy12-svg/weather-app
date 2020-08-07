@@ -1,8 +1,10 @@
-window.addEventListener('load', ()=>{
+window.addEventListener('load', () => {
     let long
-    let long
+    let lat
 
-    if (navigator.geolocation){
-         navigator.geolocation.getCurrentPosition()
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(position => {
+            console.log(position);
+        });
     }
 });
